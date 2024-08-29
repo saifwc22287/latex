@@ -1,12 +1,77 @@
-\documentclass{article}
-\usepackage{amsmath}
-\usepackage{amsfonts}
-\usepackage{tabularx}
-\usepackage{tfrupee}
-\usepackage{mathtools}
-\usepackage{graphicx}
-\usepackage{amsmath}
+\documentclass[12pt,-letter paper]{article}
+\usepackage{siunitx}
+\usepackage{setspace}
 \usepackage{gensymb}
+\usepackage{xcolor}
+\usepackage{caption}
+%\usepackage{subcaption}
+\doublespacing
+\singlespacing
+\usepackage[none]{hyphenat}
+\usepackage{amssymb}
+\usepackage{relsize}
+\usepackage[cmex10]{amsmath}
+\usepackage{mathtools}
+\usepackage{amsmath}
+\usepackage{commath}
+\usepackage{amsthm}
+\interdisplaylinepenalty=2500
+%\savesymbol{iint}
+\usepackage{txfonts}
+%\restoresymbol{TXF}{iint}
+\usepackage{wasysym}
+\usepackage{amsthm}
+\usepackage{mathrsfs}
+\usepackage{txfonts}
+\let\vec\mathbf{}
+\usepackage{stfloats}
+\usepackage{float}
+\usepackage{cite}
+\usepackage{cases}
+\usepackage{subfig}
+%\usepackage{xtab}
+\usepackage{longtable}
+\usepackage{multirow}
+%\usepackage{algorithm}
+\usepackage{amssymb}
+%\usepackage{algpseudocode}
+\usepackage{enumitem}
+\usepackage{mathtools}
+%\usepackage{eenrc}
+%\usepackage[framemethod=tikz]{mdframed}
+\usepackage{listings}
+%\usepackage{listings}
+\usepackage[latin1]{inputenc}
+%%\usepackage{color}{   
+%%\usepackage{lscape}
+\usepackage{textcomp}
+\usepackage{titling}
+\usepackage{hyperref}
+%\usepackage{fulbigskip}   
+\usepackage{tikz}
+\usepackage{graphicx}
+\lstset{
+  frame=single,
+  breaklines=true
+}
+\let\vec\mathbf{}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{siunitx}
+\let\vec\mathbf{}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{tfrupee}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mwe} % for blindtext and example-image-a in example
+\usepackage{wrapfig}
+\graphicspath{{figs/}}
+\providecommand{\mydet}[1]{\ensuremath{\begin{vmatrix}#1\end{\vmatrix}}}
+\providecommand{\myvec}[1]{\ensuremath{\begin{bmatrix}#1\end{\bmatrix}}}
+\providecommand{\cbrak}[1]{\ensuremath{\left\{#1\right\}}}
+\providecommand{\brak}[1]{\ensuremath{\left(#1\right)}}
 \begin{document}
 \begin{enumerate}
    
@@ -25,7 +90,7 @@
 
 \item If $\cos A$ + $\cos^{2}A = 1$ ,then find the value of $\sin^{2}A$ + $\sin^{4}A$
 
-\item Show that the points $ (-2,3), (8,3) and (6,7) $ are the vertices of a right-angled triangle.
+\item Show that the points $\brak{-2,3}, \brak{8,3}$ and $\brak{6,7} $ are the vertices of a right-angled triangle.
 \item The length of the shadow of a tower on the plane ground is $ \sqrt3 $ times the height of the tower. Find the angle of elevation of the sun.
 
 \item The angle of elevation of the top of a tower from a point on the ground which is $30 m$ away from the foot of the tower,is $30\degree$.Find the height of the tower.
@@ -33,7 +98,7 @@
 \item In the given figure, $O$ is the center of the circle .$AB$ and $AC$ are tangents drawn to the circle from point $A$. If $\angle BAC = 65\degree $, then find the measure of $\angle BOC $.
 	\begin{figure}[!ht]
 		\centering
-		\includegraphics[width=0.6 \textwidth]{last5.jpg}
+		\includegraphics[width=\columnwidth]{last5.jpg}
 		\caption{}
 		\label{fig:enter-label}
 	\end{figure}
@@ -44,29 +109,29 @@
 
 \item Prove that :
 	\begin{center}
-	($\frac{1}{\cos\theta}-\cos\theta$)($\frac{1}{\sin\theta}-\sin\theta$) = $\frac{1}{\tan\theta + \cot\theta}$.
+		$\brak{\frac{1}{\cos\theta}-\cos\theta}$ $\brak{\frac{1}{\sin\theta}-\sin\theta}$ = $\frac{1}{\tan\theta + \cot\theta}$.
 	\end{center}
 
-\item If $Q(0,1)$ is equidistant from $P(5,-3)$ and $R(x,6)$,find the values of $x$.	
+\item If $Q\brak{0,1}$ is equidistant from $P\brak{5,-3}$ and $R\brak{x,6}$,find the values of $x$.	
 
 \item A car has two wipers which do not overlap. Each wiper has a blade of length $21 cm$ sweeping through an angle of $120\degree$. Find the total area cleaned at each sweep of the two blades.
 
 \item If the system of linear equations  \\ 		
-         $2x + 3y = 7$ and $2ax + (a+b)y = 28$ \\
+	$2x + 3y = 7$ and $2ax + \brak{a+b}y = 28$ \\
 \text have infinite number of solutions, then find the values of $' a '$and$' b '$.
 
 \item If
-\begin{align}
+\begin{align*}
 	 217x + 131y = 913 and \\
          131x + 217y = 827,
-\end{align}
+\end{align*}
  then solve the equations for the values of $x$ and $y$.
 
 \item In the given figure, $O$ is the centre of the circle and $QPR$ is a tangent to it at $P$.Prove that $\angle QAP + \angle APR = 90\degree$.
 
 	\begin{figure}[!ht]
 		\centering
-		\includegraphics[width=0.7\textwidth]{last4.jpg}
+		\includegraphics[width=\columnwidth]{last4.jpg}
 		\caption{}
 		\label{fig:enter-label}
 	\end{figure}
@@ -74,9 +139,9 @@
 \item How many terms of ngthe arithmetic progression $45,39,33,......$ must be taken so that their sum is $180$? Explain the double answer.
 
 \item As observed from the top of a $75 m$ high lighthouse from the sea-level, the angles of depression of two ships are $30\degree$ and $60\degree$. If one ship is exactly behind the other on the same side of the lighthouse, find the distance between the two ships.\\
-	(Use $\sqrt{3} = 1.73$)
+	$\brak{Use \sqrt{3} = 1.73}$
 
-\item From a point on the ground, the angle of elevation of the bottom and top of a transmission tower fixed at the top of $30 m$ high building are $30\degree$ and $60\degree$, respectively. Find the height of the transmission tower. (Use $\sqrt{3} = 1.73$).
+\item From a point on the ground, the angle of elevation of the bottom and top of a transmission tower fixed at the top of $30 m$ high building are $30\degree$ and $60\degree$, respectively. Find the height of the transmission tower. $\brak{Use\sqrt{3} = 1.73}$.
 
 \item A student noted the number of cars passing through a spot on a road for $100$ periods each of $3$ minutes and summarised it in the table given below. Find the mean and median of the following data.\\
 
@@ -97,49 +162,48 @@ Frequency (Periods) & 7 & 14 & 13 & 12 & 20 & 11 & 15 & 8\\
 
 	\begin{figure}[!ht]
 		\centering
-		\includegraphics[width=0.6\textwidth]{last3.jpg}
+		\includegraphics[width=\columnwidth]{last3.jpg}
 		\caption{}
 		\label{fig:enter-label}
 	\end{figure}
 
-
 	\text Based on the above, answer the following question:
 		\begin{enumerate}
-			\item[(i) ] What is the area of the quadrant $ODOC$?
-			\item[(ii) ] Find the area of $\triangle AOB$.
-			\item[(iii)]
+			\item What is the area of the quadrant $ODOC$?
+			\item Find the area of $\triangle AOB$.
+			\item
 			\begin{enumerate}
-				\item[(a)] What is the total cost of silver plating the shaded part $ABCD$?
-				\item[(b)] What is the length of arc $CD$ ?
+				\item What is the total cost of silver plating the shaded part $ABCD$?
+				\item What is the length of arc $CD$ ?
 			\end{enumerate}
 		\end{enumerate}
-
+\newpage
 \item In a coffee shop, coffee is served in two types of cups.One is cylindrical  in shape with diameter $7 cm$ and height $14 cm $ and the other is hemispherical with diameter$21 cm$.
 
 	
 	\begin{figure}[!ht]
 		\centering
-		\includegraphics[width=0.7\textwidth]{last2.jpg}
+		\includegraphics[width=\columnwidth]{last2.jpg}
 		\caption{}
 		\label{fig:enter-label}
 	\end{figure}
 
 	\text Based on the above, answer the following question:
 	\begin{enumerate}
-		\item[(i) ] Find the area of the cylindrical cup.
-		\item[(ii) ]
+		\item  Find the area of the cylindrical cup.
+		\item
 		\begin{enumerate}
-			\item[(a)] What is the capacity of the hemispherical cup?
-			\item[(b)] Find the capacity of the cylindrical cup.
+			\item  What is the capacity of the hemispherical cup?
+			\item Find the capacity of the cylindrical cup.
 		\end{enumerate}
-		\item[(iii)] What is the curved surface area of the cylindrical cup?
+		\item   What is the curved surface area of the cylindrical cup?
 	\end{enumerate}
-
-\item Computer-based learning (CBL) refers to any teaching methodology that makes use of computers for information transmission. At an elementary school level, computer applications can be used to display multimedia lesson plans. A survey was done on $1000$ elementary and secondary schools of Assam and they were classified by the number of computers they had.
+\newpage
+\item Computer-based learning $\brak{CBL}$ refers to any teaching methodology that makes use of computers for information transmission. At an elementary school level, computer applications can be used to display multimedia lesson plans. A survey was done on $1000$ elementary and secondary schools of Assam and they were classified by the number of computers they had.
 
 	\begin{figure}[!ht]
 		\centering
-		\includegraphics[width=0.6\textwidth]{last1.jpg}
+		\includegraphics[width=\columnwidth]{last1.jpg}
 		\caption{}
 		\label{fig:enter-label}
 	\end{figure}
@@ -154,17 +218,15 @@ Frequency (Periods) & 7 & 14 & 13 & 12 & 20 & 11 & 15 & 8\\
 	\end{tabular}
 	\end{center}
 
-
-
 	\text One school is chosen at random.Then:
 	\begin{enumerate}
-		\item[(i) ] Find the probability that the school chosen at random has more than $100$ computers.
-		\item[(ii)]
+		\item  Find the probability that the school chosen at random has more than $100$ computers.
+		\item
 		\begin{enumerate}
-			\item[(a)] Find the probability that the school chosen at random has $50$ or fewer computers.
-			\item[(b)] Find the probability that the school chosen at random has no more than $20$ computers.
+			\item  Find the probability that the school chosen at random has $50$ or fewer computers.
+			\item  Find the probability that the school chosen at random has no more than $20$ computers.
 		\end{enumerate}
-		\item[(iii)] Find the probability that the school chosen at random has $10$ or less than $10$ computers.
+		\item  Find the probability that the school chosen at random has $10$ or less than $10$ computers.
 	\end{enumerate}
 
 
