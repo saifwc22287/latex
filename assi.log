@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.8.26)  29 AUG 2024 06:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2024.8.26)  29 AUG 2024 09:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1146,63 +1146,67 @@ T1/txr/m/n/12 of the num-ber $18180$ and $7575$. Also,find
  []
 
 [2 <./last5.jpg>]
-<last4.jpg, id=43, 294.34969pt x 194.97844pt>
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
+
+ []
+
+<last4.jpg, id=44, 294.34969pt x 194.97844pt>
 File: last4.jpg Graphic file (type jpg)
 <use last4.jpg>
-Package pdftex.def Info: last4.jpg  used on input line 134.
+Package pdftex.def Info: last4.jpg  used on input line 136.
 (pdftex.def)             Requested size: 390.0pt x 258.33923pt.
-
-Overfull \hbox (2.11072pt too wide) in paragraph at lines 141--143
+[3]
+Overfull \hbox (2.11072pt too wide) in paragraph at lines 143--145
 \OT1/txr/m/n/12 be-hind the other on the same side of the light-house, find the
  dis-tance be-tween
  []
 
-[3 <./last4.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 146--147
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
 
  []
 
 
-Overfull \hbox (66.8068pt too wide) in paragraph at lines 148--156
+Overfull \hbox (66.8068pt too wide) in paragraph at lines 150--158
 [][] 
  []
 
-
-Overfull \hbox (19.7626pt too wide) in paragraph at lines 157--158
+[4 <./last4.jpg>]
+Overfull \hbox (19.7626pt too wide) in paragraph at lines 159--160
 []\OT1/txr/m/n/12 Sides $\OML/txmi/m/it/12 AB$ \OT1/txr/m/n/12 and $\OML/txmi/m
 /it/12 BC$ \OT1/txr/m/n/12 and me-dian $\OML/txmi/m/it/12 AD$ \OT1/txr/m/n/12 o
 f a tri-an-gle $\OML/txmi/m/it/12 ABC$ \OT1/txr/m/n/12 are re-spec-tively pro-p
 or-tional
  []
 
-<last3.jpg, id=54, 399.4925pt x 317.185pt>
+<last3.jpg, id=65, 399.4925pt x 317.185pt>
 File: last3.jpg Graphic file (type jpg)
 <use last3.jpg>
-Package pdftex.def Info: last3.jpg  used on input line 165.
+Package pdftex.def Info: last3.jpg  used on input line 167.
 (pdftex.def)             Requested size: 390.0pt x 309.66307pt.
-[4]
-<last2.jpg, id=70, 645.91313pt x 249.18094pt>
+[5 <./last3.jpg>]
+<last2.jpg, id=75, 645.91313pt x 249.18094pt>
 File: last2.jpg Graphic file (type jpg)
 <use last2.jpg>
-Package pdftex.def Info: last2.jpg  used on input line 186.
+Package pdftex.def Info: last2.jpg  used on input line 188.
 (pdftex.def)             Requested size: 390.0pt x 150.45264pt.
- [5 <./last3.jpg>]
-Overfull \hbox (1.4747pt too wide) in paragraph at lines 202--203
+
+Overfull \hbox (1.4747pt too wide) in paragraph at lines 203--204
 \OT1/txr/m/n/12 school level, com-puter ap-pli-ca-tions can be used to dis-play
  mul-ti-me-dia les-son
  []
 
-<last1.jpg, id=82, 661.72218pt x 316.93407pt>
+<last1.jpg, id=76, 661.72218pt x 316.93407pt>
 File: last1.jpg Graphic file (type jpg)
 <use last1.jpg>
-Package pdftex.def Info: last1.jpg  used on input line 206.
+Package pdftex.def Info: last1.jpg  used on input line 207.
 (pdftex.def)             Requested size: 390.0pt x 186.7912pt.
 
-Overfull \hbox (4.79077pt too wide) in paragraph at lines 212--219
+Overfull \hbox (4.79077pt too wide) in paragraph at lines 213--220
  [] 
  []
 
-[6 <./last2.jpg> <./last1.jpg>] [7] (./assi.aux)
+[6 <./last2.jpg>] [7 <./last1.jpg>] (./assi.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1210,13 +1214,13 @@ Package rerunfilecheck Info: File `assi.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30379 strings out of 476091
- 599752 string characters out of 5794081
+ 30382 strings out of 476091
+ 599799 string characters out of 5794081
  1862330 words of memory out of 5000000
  50177 multiletter control sequences out of 15000+600000
- 532761 words of font info for 85 fonts, out of 8000000 for 9000
+ 531385 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,8n,104p,407b,1133s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,10n,104p,407b,1157s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
@@ -1226,10 +1230,10 @@ txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy
 share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/urw/times/utmri8a.pfb>
-Output written on assi.pdf (7 pages, 391916 bytes).
+Output written on assi.pdf (7 pages, 392149 bytes).
 PDF statistics:
- 155 PDF objects out of 1000 (max. 8388607)
- 121 compressed objects within 2 object streams
- 57 named destinations out of 1000 (max. 500000)
+ 161 PDF objects out of 1000 (max. 8388607)
+ 127 compressed objects within 2 object streams
+ 62 named destinations out of 1000 (max. 500000)
  38 words of extra memory for PDF output out of 10000 (max. 10000000)
 
